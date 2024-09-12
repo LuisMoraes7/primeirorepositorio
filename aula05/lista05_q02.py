@@ -9,7 +9,7 @@ ouro em kg e verifique se a porcentagem de ferro na liga é suficiente.''')
     ouro = int(input('Digite a quantidade de ouro em kg: '))
     total = ferro + ouro
     if (ferro >= 0.7 * total):
-        return(print('A porcentagem do ferro é maior do que 70% do total.'))
+        return(print('A porcentagem do ferro é maior ou igual a 70% do total.'))
     else:
         return(print('A porcentagem do ferro não corresponde nem a 70% do total.'))
 
