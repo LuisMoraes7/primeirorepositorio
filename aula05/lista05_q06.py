@@ -4,10 +4,10 @@ from util.utils import recebe_float
 def resolucao():
     print('''Em um campeonato de corrida de dragões, cada dragão corre uma determinada
 distância em um certo tempo. Digite a distância e tempo que alcançam determinados dragões verde e azul.''')
-    distancia1 = recebe_float('Distância do dragão verde: ')
+    distancia1 = recebe_float('Distância do dragão verde (em metros): ')
     tempo1 = recebe_float('Tempo do dragão verde (em segundos): ')
     velocidade1 = distancia1/tempo1
-    distancia2= recebe_float('Distância do dragão azul: ')
+    distancia2= recebe_float('Distância do dragão azul (em metros): ')
     tempo2 = recebe_float('Tempo do dragão azul (em segundos): ')
     velocidade2 = distancia2/tempo2
     if velocidade1 > velocidade2:
