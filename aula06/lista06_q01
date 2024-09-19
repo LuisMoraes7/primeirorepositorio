@@ -1,0 +1,7 @@
+def funcao_principal():
+    for i in range (1000, 2001, 1):
+        if i % 11 == 5:
+            print(f'Este valor tem resto 5: {i}')
+
+if __name__ == '__main__':
+    funcao_principal()
