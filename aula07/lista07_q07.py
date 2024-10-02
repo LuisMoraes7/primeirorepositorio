@@ -7,7 +7,6 @@ def fatorial(n):
     fatorial = 1
     for c in range (n, 1, -1):
         fatorial *= c
-        # ! 5 x 4 x 3 x 2 x 1
     return fatorial
 
 

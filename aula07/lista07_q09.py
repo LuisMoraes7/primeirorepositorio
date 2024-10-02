@@ -1,6 +1,4 @@
 def resolucao():
-#     Desenho de Padrões com Caracteres:
-# Contexto: Crie um programa que desenhe padrões simples com caracteres, como triângulos, quadrados ou losangos. Utilize loops aninhados para controlar a quantidade de linhas e colunas e a exibição dos caracteres.
     vazio = 7
     entre = 3
     for c in range (0, 5):

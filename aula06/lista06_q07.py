@@ -52,10 +52,17 @@ def funcao_principal():
                             print(f'Idade: {idade}')
                             print(f'Email: {email}')
                             print('Cadastrado com sucesso!')
-                            print('Deseja continuar? [1 para sim, 2 para não]')
-                            # ct
+                            while True:
+                                continuar = input('Deseja continuar? [1 para sim, 2 para não]: ')
+                                if continuar == '1':
+                                    funcao_principal()
+                                    return
+                                elif continuar == '2':
+                                    print('Encerrando o programa.')
+                                    return
+                                else:
+                                    print('Opção inválida! Somente 1 ou 2.')
                             break
-                        
                     break
                 else:
                     print('Encontramos um erro na idade fornecida!')
