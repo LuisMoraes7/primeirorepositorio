@@ -53,7 +53,7 @@ def funcao_principal():
                             print(f'Email: {email}')
                             print('Cadastrado com sucesso!')
                             print('Deseja continuar? [1 para sim, 2 para não]')
-                            # chatgpt aqui
+                            # ct
                             break
                         
                     break

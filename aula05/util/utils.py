@@ -1,3 +1,5 @@
+
+
 def recebe_numero(mensagem):
     while True:
         try:
