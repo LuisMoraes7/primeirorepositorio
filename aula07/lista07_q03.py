@@ -9,8 +9,6 @@ def consoantes(padrao, palavra):
     return len(ocorrencias)
 
 def resolucao():
-#     Contador de Vogais e Consoantes:
-# Contexto: Crie um programa que peça ao usuário uma frase e conte o número de vogais e consoantes presentes nela. Utilize um loop para percorrer cada caractere da frase e realizar a contagem.
     padrao_vogais = r'[aeiou]'
     padrao_consoantes = r'[^aeiou]'
     palavra = input('Digite a palavra: ')
