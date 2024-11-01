@@ -12,13 +12,26 @@ def main():
         [5, 2, 7, 3, 9, 7, 3, 8, 1, 9],
         [3, 1, 7, 5, 1, 7, 4, 7, 5, 4]
     ]
-
+    soma = 0
     for coluna in range(len(matrizA[0])):
         for linha in range(len(matrizA)):
-            matrizA[linha][coluna] *= 3
+            soma += matrizA[linha][coluna]
 
-    
-    for linha in matrizA:
+    print('A soma é: ', soma)
+
+    # for coluna in range(len(matrizA[0])):
+    #     for linha in range(len(matrizA)):
+    #         matrizA[linha][coluna] *= 3
+
+    tamanho = 10
+    matrizB = [[0 for _ in range(tamanho)]for _ in range(tamanho)]
+    for coluna in range(len(matrizA[0])):
+        for linha in range(len(matrizA)):
+            matrizB[linha][coluna] += matrizA[linha][coluna] * 3
+            
+
+    print('Matriz B:')
+    for linha in matrizB:
         print(linha)
 
    
